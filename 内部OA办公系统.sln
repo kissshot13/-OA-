@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "内部OA办公系统", "内部OA办公系统\内部OA办公系统.csproj", "{F67AD172-D6BF-4CA5-9240-F9C57A0AC812}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OASystem.Web", "内部OA办公系统\OASystem.Web.csproj", "{F67AD172-D6BF-4CA5-9240-F9C57A0AC812}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "内部OA办公系统.Tests", "内部OA办公系统.Tests\内部OA办公系统.Tests.csproj", "{BDF3F3AC-E766-4A2F-9528-CD0C19A52D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{473FA20F-C1F8-4802-8059-3665F48649DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OASystem.Common", "Common\OASystem.Common.csproj", "{473FA20F-C1F8-4802-8059-3665F48649DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OASystem.DAL", "OASystem.DAL\OASystem.DAL.csproj", "{8B41719F-FC0A-406C-85B8-12A8B1DD2587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OASystem.IDAL", "OASystem.IDAL\OASystem.IDAL.csproj", "{E68BCA45-5354-48F7-90D1-54F663CC763C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OASystem.Entities", "OASystem.Entities\OASystem.Entities.csproj", "{BF78FE00-FDCB-41A7-A53A-68A9B8378E1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{473FA20F-C1F8-4802-8059-3665F48649DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473FA20F-C1F8-4802-8059-3665F48649DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473FA20F-C1F8-4802-8059-3665F48649DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B41719F-FC0A-406C-85B8-12A8B1DD2587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B41719F-FC0A-406C-85B8-12A8B1DD2587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B41719F-FC0A-406C-85B8-12A8B1DD2587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B41719F-FC0A-406C-85B8-12A8B1DD2587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68BCA45-5354-48F7-90D1-54F663CC763C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68BCA45-5354-48F7-90D1-54F663CC763C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68BCA45-5354-48F7-90D1-54F663CC763C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68BCA45-5354-48F7-90D1-54F663CC763C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF78FE00-FDCB-41A7-A53A-68A9B8378E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF78FE00-FDCB-41A7-A53A-68A9B8378E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF78FE00-FDCB-41A7-A53A-68A9B8378E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF78FE00-FDCB-41A7-A53A-68A9B8378E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

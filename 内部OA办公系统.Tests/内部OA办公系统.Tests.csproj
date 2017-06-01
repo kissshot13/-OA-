@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\内部OA办公系统\内部OA办公系统.csproj">
+    <ProjectReference Include="..\内部OA办公系统\OASystem.Web.csproj">
       <Project>{F67AD172-D6BF-4CA5-9240-F9C57A0AC812}</Project>
-      <Name>内部OA办公系统</Name>
+      <Name>OASystem.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
